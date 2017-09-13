@@ -13,10 +13,10 @@ public class EjercicioUnoBis {
 
     /**
      * @param args the command line arguments
-     * dsdsgdfsgdf
+     * Esto funciona de maravilla.
      */
     public static void main(String[] args) {
-        System.out.println("hola mundo");
+        System.out.println("Esto funciona de maravilla");
     }
     
 }
