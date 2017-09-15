@@ -18,13 +18,13 @@ public class EjercicioCinco {
      * Se necesita pedir dos numeros y sumarlos, mostrar el resultado
      */
     public static void main(String[] args) {
-        int NumeroUno;
-        int NumeroDos;
-        int Suma;
-        Scanner 
+        int NumeroUno= 3 ;
+        int NumeroDos= 5 ;
+        int Suma= NumeroUno + NumeroDos;
+         
         System.out.println("estoy en el ejercicio 5");
         
-        System.out.println("El resultado es: " + (Suma.in));
+        System.out.println("El resultado es: " NumeroUno + NumeroDos (Suma.in));
         
         
     }
