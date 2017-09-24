@@ -9,22 +9,33 @@ import java.util.Scanner;
 
 /**
  *
- * @author alumno
+ * @author wetsuit-skr
  */
 public class EjercicioCinco {
 
     /**
      * @param args the command line arguments
-     * Se necesita pedir dos numeros y sumarlos, mostrar el resultado
      */
     public static void main(String[] args) {
-        int NumeroUno= 3 ;
-        int NumeroDos= 5 ;
-        int Suma= NumeroUno + NumeroDos;
+        Scanner sc= new Scanner(System.in);
+        
+        Integer NumeroUno,NumeroDos,Resultado;
+        
+        System.out.println("Ingrese Primer Numero");
+        NumeroUno= sc.nextInt();
+        
+        System.out.println("Ingrese Segundo Numero");
+        NumeroDos= sc.nextInt();
+        
+        Resultado= NumeroUno + NumeroDos;
+        System.out.println("El resultado es: "+ Resultado);
+        
+        
+        
          
         System.out.println("estoy en el ejercicio 5");
         
-        System.out.println("El resultado es: " NumeroUno + NumeroDos (Suma.in));
+        
         
         
     }
