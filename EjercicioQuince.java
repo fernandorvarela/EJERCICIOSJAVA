@@ -5,9 +5,12 @@
  */
 package ejercicioquince;
 
+import com.sun.java.swing.plaf.windows.WindowsInternalFrameTitlePane;
+import java.util.Scanner;
+
 /**
  *
- * @author alumno
+ * @author wetsuit-skr
  */
 public class EjercicioQuince {
 
@@ -15,7 +18,33 @@ public class EjercicioQuince {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // //15 Se ingresa un importe si supera los 100 pesos, se le suma un 23%. Si es menor a 100 pesos se le descuenta el 50%.
+        /* Se pide el nombre, el sexo y la localidad. Si se llama José o maría
+        y es de sexo masculino, viviendo en morón, se muestra el mensaje
+        “sos de morón”.*/
+        Scanner sc= new Scanner(System.in);
+        
+        String Nombre,Sexo,Localidad;
+        
+        System.out.println("Ingrese Nombre");
+        Nombre= sc.next();
+        
+        System.out.println("Ingrese Sexo");
+        Sexo= sc.next();
+        
+        System.out.println("Ingrese Localidad");
+        Localidad= sc.next();
+        
+        if (Nombre.equals("Jose")||(Nombre.equals("Maria"))    ) {
+            if (Sexo.equals("M")) {
+                if (Localidad.equals("Moron")) {
+                    System.out.println("Sos de Moron");
+                    
+                }
+                
+            }
+            
+        }
+        
     }
     
 }
