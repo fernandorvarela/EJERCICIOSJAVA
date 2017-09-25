@@ -5,9 +5,11 @@
  */
 package ejerciciodieciseis;
 
+import java.util.Scanner;
+
 /**
  *
- * @author alumno
+ * @author wetsuit-skr
  */
 public class EjercicioDieciseis {
 
@@ -15,7 +17,23 @@ public class EjercicioDieciseis {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // 16 Se ingresa el importe de un pasaje de avion y el mes de viaje, si es enero se le descuenta un 10% por temporada baja.
+        // Se debe ingresar una edad  e  informar si es mayor de edad o no.
+        Scanner sc= new Scanner(System.in);
+        
+        Integer Edad;
+        
+        System.out.println("Ingrese Su Edad");
+        
+        Edad= sc.nextInt();
+        
+        
+        if (Edad >17) {
+            System.out.println("Es mayor");
+            
+        }else{
+            System.out.println("Es menor");
+        }
+        
     }
     
 }
