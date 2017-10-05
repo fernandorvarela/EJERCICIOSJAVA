@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author alumno
+ * @author wetsuit-skr
  */
 public class Examen {
 
@@ -41,6 +41,11 @@ public class Examen {
               case 10:
               GuiaInicial.HacerEjercicio10();
               break;
+              case 11:
+                  GuiaIf.HacerEjercicio11();
+                  break;
+              case 14:
+                  GuiaIf.HacerEjercicio15();
               
             case 13:
                 GuiaIf.HacerEjercicio13();
@@ -52,6 +57,4 @@ public class Examen {
         
     }
     
-  
 }
-

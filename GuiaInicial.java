@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author alumno
+ * @author wetsuit-skr
  */
 public class GuiaInicial {
     public static void saludar() {
@@ -121,7 +121,7 @@ informar cuánto dinero le corresponde a cada uno.*/
         
         System.out.println("Ingresar monto total");
         MontoTotal= sc.nextInt();
-        Dinero= Ganadores/MontoTotal;
+        Dinero=MontoTotal/Ganadores;
         
         System.out.println("A cada ganador le corresponde: "+Dinero);
         
