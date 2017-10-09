@@ -57,21 +57,24 @@ public class GuiaIf {
         Si es menor a 100 pesos se le descuenta el 50%.*/
         
         Scanner sc= new Scanner(System.in);
-        String Clave;
         
+        String datoAux;
+        Double importe;
+        Double total;
         
-        System.out.println("La clave es");
-        Clave= sc.next();
+        System.out.println("Ingresar Importe");
+        datoAux= sc.next();
+        importe= Double.parseDouble(datoAux);
         
-        if(Clave.equals("UTN750")){
-        System.out.println("bienvenido");
+        if (importe>100) {
+            total=importe*0.23+importe;
+            System.out.println("El total es: "+total);
+            
+        }else{
+        total=importe*0.50;
+            System.out.println("El total es: "+total);
+        }
         
-    }else{System.out.println("clave erronea");}
-        
-        
-        
-        
-    
     
     }
 }

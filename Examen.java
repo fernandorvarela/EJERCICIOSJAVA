@@ -44,11 +44,11 @@ public class Examen {
               case 11:
                   GuiaIf.HacerEjercicio11();
                   break;
-              case 14:
-                  GuiaIf.HacerEjercicio15();
+              case 13:
+                  GuiaIf.HacerEjercicio13();
               
-            case 13:
-                GuiaIf.HacerEjercicio13();
+            case 15:
+                GuiaIf.HacerEjercicio15();
                 break;
                
         
